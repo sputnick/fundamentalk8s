@@ -17,4 +17,4 @@ EOF
 # add 8.8.8.8 to /etc/resolveconf/resolveconf.d/head 
 # systemctl restart NetworkManager.service
 
-apt-get update && apt-get install -y docker.io kubelet kubeadm kubectl kubernetes-cni && systemctl disable ufw.service && systemctl enable docker.service
+apt-get update && apt-get install -y aufs-tools docker.io kubelet kubeadm kubectl kubernetes-cni && systemctl disable ufw.service && systemctl enable docker.service

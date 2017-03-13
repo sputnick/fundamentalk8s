@@ -1,4 +1,6 @@
 # setup shared storage with Rook
+apt install ceph-common
+
 cd /tmp
 git clone https://github.com/rook/rook.git
 cd rook/demo/kubernetes
